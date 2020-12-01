@@ -1,0 +1,122 @@
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content=initial-scale=1.0">
+    <title>Oz Baianos - Empório Nordestino</title>
+
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Freckle+Face&family=Nunito:wght@300;400;700&display=swap"
+        rel="stylesheet">
+</head>
+
+<body>
+
+
+    <div class="promo">
+        <p>PROMOÇÃO: MARMITEX GRANDE POR R$10,00. PEÇA NO TELEFONE: 18 99111-5004</p>
+    </div>
+
+    <header class="header-bg" id="header-bg">
+        <div class="header">
+            <div>
+                <a href="index.html"><img src="/img/logo.svg" alt="logo"></a>
+            </div>
+            <div class="menu">
+                <ul>
+                    <li><a href="produtos.html"> nossos produtos</a></li>
+                    <li><a href="sobre.html"> quem somos</a></li>
+                    <li><a href="contato.html"> contato</a></li>
+                </ul>
+            </div>
+        </div>
+    </header>
+
+
+    <section class="main">
+        <div class="main-texto">
+            <h1>O melhor do nordeste em <span>Andradina</span></h1>
+            <a class="btn" href="">Compre agora</a>
+        </div>
+    </section>
+
+    <section class="produtos">
+        <div class="prod-textos">
+            <div class="txt">
+                <h1>Produtos arretados</h1>
+                <h2>Seu Almoço Nordestino</h2>
+                <p>O carro chefe da casa é nosso marmitex que diariamente contém várias receitas baianas além do
+                    clássico
+                    paulista. Não deixe de conferir qual prato estará disponível no dia da semana. </p>
+                <a class="btn" href="">Ver produtos</a>
+            </div>
+        </div>
+    </section>
+
+
+    <section class="casal">
+        <h1>baianos em andradina</h1>
+        <div class="casal-textos">
+            <div class="descricao">
+                <h2>Grazi e Julio</h2>
+                <p>Somos um casal que veio da Bahia à Andradina com anseios de conhecer gente nova, ter experiências
+                    incríveis e poder fornecer um pedacinho do lindo nordeste na cidade através da comida e dos produtos
+                    vendidos. </p>
+                <a class=" btn" href="">Oz Baianos</a>
+            </div>
+            <div class="img-casal">
+                <img src="img/casal.png" alt="">
+            </div>
+
+        </div>
+    </section>
+
+    <section class="compre">
+        <div class="compre-txt">
+            <h1>compre conosco</h1>
+            <h2>Abertos de segunda a sábado</h2>
+            <h2>08:00 - 20:00</h2>
+            <h2>Rua santa catarina 2330</h2>
+
+        </div>
+        <div class="compre-btn">
+            <a class=" btn" href="">Peça pelo WhatsApp</a>
+        </div>
+    </section>
+
+    <footer>
+        <div class="footer-txt">
+            <p>Oz Baianos do Acarajé - Alguns direitos Reservados</p>
+            <div>
+                <a href="https://www.facebook.com/ozbaianos.emporionordestino" target="_blank"><img
+                        src="/img/face-footer.svg" alt="facebook"></a>
+                <a href="https://www.instagram.com/ozbaianos_en/" target="_blank"> <img src="/img/insta-footer.svg"
+                        alt="instagram"></a>
+                <a href=""><img src="/img/whats-footer.svg" alt="whatsapp"></a>
+            </div>
+            <p>Desenvolvido por @babilsa </p>
+        </div>
+    </footer>
+
+    <script>
+        window.onscroll = function () { myFunction() };
+
+        var header = document.getElementById("header-bg");
+        var sticky = header.offsetTop;
+
+        function myFunction() {
+            if (window.pageYOffset > sticky) {
+                header.classList.add("sticky");
+            } else {
+                header.classList.remove("sticky");
+            }
+        }
+    </script>
+
+
+
+</body>
+
+</html>

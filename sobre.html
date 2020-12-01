@@ -1,0 +1,105 @@
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content=initial-scale=1.0">
+    <title>Sobre Nós</title>
+
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/sobre.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Freckle+Face&family=Nunito:wght@300;400;700&display=swap"
+        rel="stylesheet">
+</head>
+
+<body>
+    <div class="promo">
+        <p>PROMOÇÃO: MARMITEX GRANDE POR R$10,00. PEÇA NO TELEFONE: 18 99111-5004</p>
+    </div>
+
+    <header class="header-bg" id="header-bg">
+        <div class="header">
+            <div>
+                <a href="index.html"><img src="/img/logo.svg" alt="logo"></a>
+            </div>
+            <div class="menu">
+                <ul>
+                    <li><a href="produtos.html"> nossos produtos</a></li>
+                    <li><a href=""> quem somos</a></li>
+                    <li><a href="contato.html"> contato</a></li>
+                </ul>
+            </div>
+        </div>
+    </header>
+
+
+    <section class="sobre">
+        <h1>Quem somos</h1>
+        <h2>Um pouco sobre nós</h2>
+        <div class="box-sobre">
+            <div>
+                <h3>Baianos em Andradina</h3>
+                <p>Somos um casal apaixonado pela cultura baiana e com vontade de espalha-la pelo mundo. Começamos aqui
+                    em
+                    Andradina vendendo acarajé e hoje expandimos nosso negócio. Além do acarajé, também vendemos
+                    marmitas,
+                    temperos típicos da bahia e outras comidas deliciosas cheias de tempero que sabemos que os paulistas
+                    amam.
+
+                    <span>Prazer, Grazi e Júlio.</span> </p>
+            </div>
+            <img src="./img/grazi-julio.png" alt="Grazi e Julio">
+        </div>
+        <div class="baianos-button">
+            <img src="./img/logo.svg">
+        </div>
+    </section>
+
+
+
+
+
+
+    <section class="compre">
+        <div class="compre-txt">
+            <h1>compre conosco</h1>
+            <h2>Abertos de segunda a sábado</h2>
+            <h2>08:00 - 20:00</h2>
+            <h2>Rua santa catarina 2330</h2>
+
+        </div>
+        <div class="compre-btn">
+            <a class=" btn" href="">Peça pelo WhatsApp</a>
+        </div>
+    </section>
+    <footer>
+        <div class="footer-txt">
+            <p>Oz Baianos do Acarajé - Alguns direitos Reservados</p>
+            <div>
+                <a href="https://www.facebook.com/ozbaianos.emporionordestino" target="_blank"><img
+                        src="/img/face-footer.svg" alt="facebook"></a>
+                <a href="https://www.instagram.com/ozbaianos_en/" target="_blank"> <img src="/img/insta-footer.svg"
+                        alt="instagram"></a>
+                <a href=""><img src="/img/whats-footer.svg" alt="whatsapp"></a>
+            </div>
+            <p>Desenvolvido por @babilsa </p>
+        </div>
+    </footer>
+
+    <script>
+        window.onscroll = function () { myFunction() };
+
+        var header = document.getElementById("header-bg");
+        var sticky = header.offsetTop;
+
+        function myFunction() {
+            if (window.pageYOffset > sticky) {
+                header.classList.add("sticky");
+            } else {
+                header.classList.remove("sticky");
+            }
+        }
+    </script>
+
+</body>

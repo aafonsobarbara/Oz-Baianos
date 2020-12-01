@@ -1,0 +1,56 @@
+.sobre {
+  width: 1214px;
+  margin: 0 auto;
+  text-align: center;
+  margin-top: 70px;
+}
+.sobre h1,
+h2 {
+  margin-bottom: 20px;
+}
+.sobre h2 {
+  color: #421f20;
+}
+.box-sobre {
+  display: flex;
+  margin-top: 50px;
+  box-shadow: 4px 13px 13px rgba(0, 0, 0, 0.15);
+}
+.box-sobre img {
+  border-radius: 0px 5px 5px 0px;
+}
+.box-sobre > div {
+  background-color: #fff3cc;
+  border-radius: 5px 0px 0px 5px;
+  padding: 50px 40px;
+}
+.box-sobre h3 {
+  font-size: 30px;
+  line-height: 41px;
+  font-family: "Nunito", sans-serif;
+  text-transform: capitalize;
+  font-weight: bold;
+  color: #568265;
+  margin-bottom: 20px;
+}
+.box-sobre p {
+  font-size: 24px;
+  line-height: 33px;
+  font-family: "Nunito", sans-serif;
+  color: #421f20;
+  text-align: left;
+}
+.box-sobre span {
+  font-weight: bold;
+  line-height: 50px;
+}
+.baianos-button img {
+  background-color: #421f20;
+  border-radius: 5px;
+  margin: 84px 0;
+  padding: 15px;
+}
+.baianos-button img:hover {
+  background-color: #568265;
+  transition: 0.3s;
+}

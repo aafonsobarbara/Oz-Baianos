@@ -1,0 +1,244 @@
+body {
+  background-color: #f4f5f7;
+  font-family: "Nunito", sans-serif;
+}
+h1 {
+  font-family: "Freckle Face", cursive;
+  font-size: 48px;
+  color: #568265;
+}
+h2 {
+  font-size: 36px;
+  font-weight: bold;
+}
+
+/* -HEADER  */
+
+.promo {
+  background: #568265;
+}
+.promo p {
+  font-family: "Nunito", sans-serif;
+  font-size: 18px;
+  color: white;
+  text-transform: uppercase;
+  text-align: center;
+  padding: 15px;
+}
+
+/* -HEADER  */
+
+.header-bg {
+  background-color: #f4f5f7;
+  filter: drop-shadow(1px 4px 9px rgba(0, 0, 0, 0.15));
+}
+.sticky {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  z-index: 1000;
+}
+.header {
+  width: 1214px;
+  display: flex;
+  justify-content: space-between;
+  margin: 0 auto;
+  padding: 10px;
+}
+.menu {
+  align-self: center;
+}
+.menu ul {
+  display: flex;
+}
+.menu ul li {
+  margin-left: 50px;
+}
+.menu ul li a {
+  font-family: "Nunito", sans-serif;
+  font-size: 18px;
+  color: #421f20;
+  text-transform: uppercase;
+  font-weight: bold;
+  text-decoration: none;
+  padding: 10px 5px;
+}
+.menu ul li a:hover {
+  color: #fbcc35;
+  transition: 0.3s;
+}
+
+/* -MAIN  */
+
+.main {
+  background: url(../img/main-img.png) no-repeat;
+  background-size: cover;
+  height: 583px;
+}
+.main-texto {
+  text-align: center;
+  width: 668px;
+  margin: 0 auto;
+  position: relative;
+  top: 50%;
+}
+.main-texto h1 {
+  font-family: "Freckle Face", cursive;
+  font-size: 64px;
+  color: #421f20;
+  text-transform: uppercase;
+  line-height: 80px;
+  margin-bottom: 40px;
+}
+.main-texto span {
+  color: #568265;
+}
+
+.btn {
+  border: none;
+  color: #421f20;
+  font-size: 24px;
+  font-weight: bold;
+  font-family: "Nunito", sans-serif;
+  padding: 8px 50px;
+  background-color: #fbcc35;
+  border-radius: 5px;
+}
+.btn:hover {
+  background-color: #568265;
+  color: white;
+  transition: 0.3s;
+}
+
+/* -PRODUTOS */
+
+.produtos {
+  background: url(../img/panelas.png) no-repeat;
+  background-size: cover;
+  height: 602px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: center;
+}
+.prod-textos {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  width: 1214px;
+}
+.txt {
+  width: 500px;
+  text-align: right;
+}
+.txt h1 {
+  color: white;
+  margin-bottom: 30px;
+  text-transform: uppercase;
+}
+.txt h2 {
+  color: #421f20;
+  margin-bottom: 35px;
+}
+.txt p {
+  text-align: right;
+  font-size: 24px;
+  color: #421f20;
+  margin-bottom: 50px;
+  font-weight: lighter;
+  line-height: 33px;
+}
+
+/* -CASAL  */
+
+.casal {
+  height: 647px;
+  background: url(../img/background.png);
+  background-size: cover;
+  text-align: center;
+}
+.casal h1 {
+  padding: 120px 0 50px 0;
+  color: #568265;
+  text-transform: uppercase;
+}
+.casal-textos {
+  width: 1214px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+}
+.descricao {
+  text-align: left;
+}
+.casal-textos p {
+  font-size: 24px;
+  color: #421f20;
+  line-height: 33px;
+  width: 462px;
+  margin-bottom: 60px;
+  font-weight: lighter;
+}
+.casal-textos h2 {
+  color: #421f20;
+  margin-bottom: 30px;
+}
+
+.img-casal {
+  border: solid 3px;
+  padding: 20px;
+  border-color: #421f20;
+  border-radius: 5px;
+}
+
+/* -COMPRE  */
+
+.compre {
+  background: url(../img/pimentas.png);
+  background-size: cover;
+  height: 482px;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.compre-txt {
+  width: 550px;
+}
+.compre-txt h1 {
+  text-transform: uppercase;
+  color: white;
+  tab-size: 48px;
+  margin-bottom: 60px;
+}
+
+.compre-txt h2 {
+  color: white;
+  text-align: center;
+  text-transform: capitalize;
+  line-height: 48px;
+}
+.compre-btn {
+  margin-top: 40px;
+}
+
+/* -FOOTER  */
+
+footer {
+  background-color: #421f20;
+  padding: 30px 0;
+  color: white;
+}
+.footer-txt {
+  width: 1214px;
+  display: flex;
+  justify-content: space-between;
+  align-items: baseline;
+  margin: 0 auto;
+}
+.footer-txt p {
+  font-size: 18px;
+}
+.footer-txt div img {
+  margin-left: 20px;
+}

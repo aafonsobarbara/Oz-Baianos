@@ -1,0 +1,96 @@
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content=initial-scale=1.0">
+    <title>Contato</title>
+
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/contato.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Freckle+Face&family=Nunito:wght@300;400;700&display=swap"
+        rel="stylesheet">
+</head>
+
+<body>
+    <div class="promo">
+        <p>PROMOÇÃO: MARMITEX GRANDE POR R$10,00. PEÇA NO TELEFONE: 18 99111-5004</p>
+    </div>
+
+    <header class="header-bg" id="header-bg">
+        <div class="header">
+            <div>
+                <a href="index.html"><img src="/img/logo.svg" alt="logo"></a>
+            </div>
+            <div class="menu">
+                <ul>
+                    <li><a href="produtos.html"> nossos produtos</a></li>
+                    <li><a href="sobre.html"> quem somos</a></li>
+                    <li><a href="contato.html"> contato</a></li>
+                </ul>
+            </div>
+        </div>
+    </header>
+
+
+    <section class="contato">
+        <img src="./img/bandelora.png" alt="">
+        <h1>Fale conosco</h1>
+        <h2>atendimento em 1º lugar</h2>
+        <div class="box">
+            <div class="box-redes">
+                <h2>Nosso WhatsApp</h2>
+                <img src="./img/whats.svg" alt="WhatsApp">
+            </div>
+            <div class="box-redes">
+                <h2>Nosso Instagram</h2>
+                <img src="./img/instagram.svg" alt="WhatsApp">
+            </div>
+            <div class="box-redes">
+                <h2>Nosso Facebook</h2>
+                <img src="./img/facebok.svg" alt="WhatsApp">
+            </div>
+        </div>
+        <div class="end-tel">
+            <div class="end-tel-txt">
+                <h2>Nosso endereço</h2>
+                <h3>Rua Santa Catarina - 471- Vila Mineira
+                    Andradina - São Paulo</h3>
+            </div>
+            <div class="end-tel-txt end-tel-txt-2">
+                <h2>Peça pelo Telefone</h2>
+                <h3> 18 99111-5004 </h3>
+            </div>
+        </div>
+        <img src="./img/bandelora.png" class="bandelora">
+    </section>
+    <footer>
+        <div class="footer-txt">
+            <p>Oz Baianos do Acarajé - Alguns direitos Reservados</p>
+            <div>
+                <a href="https://www.facebook.com/ozbaianos.emporionordestino" target="_blank"><img
+                        src="/img/face-footer.svg" alt="facebook"></a>
+                <a href="https://www.instagram.com/ozbaianos_en/" target="_blank"> <img src="/img/insta-footer.svg"
+                        alt="instagram"></a>
+                <a href=""><img src="/img/whats-footer.svg" alt="whatsapp"></a>
+            </div>
+            <p>Desenvolvido por @babilsa </p>
+        </div>
+    </footer>
+
+    <script>
+        window.onscroll = function () { myFunction() };
+
+        var header = document.getElementById("header-bg");
+        var sticky = header.offsetTop;
+
+        function myFunction() {
+            if (window.pageYOffset > sticky) {
+                header.classList.add("sticky");
+            } else {
+                header.classList.remove("sticky");
+            }
+        }
+    </script>
+</body>
