@@ -18,11 +18,10 @@
 .box {
   display: flex;
   justify-content: space-around;
-    margin: 50px 0;
+  margin: 50px 0;
 }
 .box-redes {
   padding: 80px 40px;
-  
   box-shadow: 10px 10px 7px rgba(0, 0, 0, 0.15);
   border-radius: 5px;
   text-align: center;
@@ -63,4 +62,34 @@
 }
 .bandelora {
   transform: rotate(-180deg);
+}
+
+@media only screen and (max-width: 1250px) {
+  .contato {
+    width: 100%;
+  }
+  .contato > img {
+    display: none;
+  }
+  .box {
+    flex-direction: column;
+  }
+  .box-redes {
+    padding: 60px 20px;
+    max-width: 700px;
+    min-width: 300px;
+    margin: 0 auto;
+  }
+  .box-redes img {
+    max-width: 150px;
+  }
+  .box-redes h2 {
+    font-size: 26px;
+  }
+  .end-tel h2 {
+    font-size: 26;
+  }
+  .end-tel h3 {
+    font-size: 20px;
+  }
 }

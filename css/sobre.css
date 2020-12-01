@@ -54,3 +54,21 @@ h2 {
   background-color: #568265;
   transition: 0.3s;
 }
+@media only screen and (max-width: 1250px) {
+  .sobre {
+    width: 100%;
+  }
+  .box-sobre {
+    flex-direction: column;
+    background-color: #fff3cc;
+  }
+  .box-sobre img {
+    margin: 0 auto;
+    padding: 0 0 30px 0;
+    max-width: 40%;
+    text-align: center;
+  }
+  .baianos-button img {
+    max-width: 200px;
+  }
+}
