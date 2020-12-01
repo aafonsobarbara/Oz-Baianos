@@ -18,10 +18,11 @@
 .box {
   display: flex;
   justify-content: space-around;
+    margin: 50px 0;
 }
 .box-redes {
   padding: 80px 40px;
-  margin: 50px 0;
+  
   box-shadow: 10px 10px 7px rgba(0, 0, 0, 0.15);
   border-radius: 5px;
   text-align: center;
