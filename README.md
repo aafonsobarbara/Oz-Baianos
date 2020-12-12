@@ -4,10 +4,10 @@
 
 [![Downloads Stats][npm-downloads]][npm-url]
 
-Com o objetivo de divulgar a marca, foi desenvolvido o site para que seja acessível e que chame atenção do público. Foi utilizado CSS, HTML e JavaScritp.
+Com o objetivo de divulgar a marca, foi desenvolvido o site para que seja acessível e que chame atenção do público. Foi utilizado CSS, HTML e JavaScript.
 Todo o design do site foi desenvolvido por mim, de acordo com o gosto do cliente.
 
-![](../img/logo.svg)
+![](/img/telainicial.png)
 
 ## Meta
 
